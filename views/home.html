@@ -20,7 +20,7 @@ File Description: HTML code for Home page
 </head>
 <body>
    
-  <form id="form" method="get" action="confirm">
+  <form id="form" action="confirm" method="post" >
 
     <h1>Contact Form</h1>
   
@@ -32,7 +32,7 @@ File Description: HTML code for Home page
 
     <div class="rows">
       <label>Company<input type="text" id="company" name="company"></label>
-      <label>LinkedIn URL<input type="text" id="linked" name="linked"></label>
+      <label>LinkedIn URL<input type="text" id="linkedIn" name="linkedIn"></label>
       <label>Email Address<input type="text" id="email" name="email"></label>
     </div>
 
@@ -57,7 +57,7 @@ File Description: HTML code for Home page
     </div>
 
     <div>
-      <label><input class=inline type="checkbox" name="mailList" value="mailYes">Please add me to your mailing list</label>
+      <label><input class=inline type="checkbox" name="mailList" value="yes">Please add me to your mailing list</label>
       <label class="inline">Choose an email format: </label>
       <label class="inline"><input class="inline" type="radio" name="format" value="html">HTML</label>
       <label class="inline"><input class="inline" type="radio" name="format" value="text">Text</label><br>
