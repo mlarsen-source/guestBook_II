@@ -18,11 +18,14 @@ File Description: HTML for Confirmation page
   <link rel="icon" type="image/png" href="/images/confirm.png" />
   <title>Confirmation Page</title>
 </head>
+
 <body>
   <main>
     <h2>Thank you!</h2>
     <p> Your contact information was submitted successfully. </p>
-    <a id="home-button" href="/"><button type="button">&#129032; Back</button></a>
+    <form action="/" method="get">
+      <input id="button" type="submit" value="&#129032; Back">
+    </form>
   </main>  
 </body>
 </html>
